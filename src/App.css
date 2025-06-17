@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-image: url("/src/assests/jake-weirick-A6gKTF5dVAI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center bottom; /* Keeps the focus at the bottom and centers the image */
+  height: 100vh; /* Full screen height */
+}
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+  .header {
+    background-position: center center; /* Centers the image on smaller screens */
+    height: 90vh; /* Adjust the height for smaller screens */
+  }
+}
+
+/* For very small screens like phones in portrait mode */
+@media screen and (max-width: 480px) {
+  .header {
+    background-position: top center; /* Adjust the background position for very small screens */
+    height: 90vh; /* Smaller height for mobile screens */
+  }
+}
+
+.h1 {
+  font-family: "Montserrat", sans-serif;
+}
+footer {
+  background-image: url("/src/assests/ken-cheung-KonWFWUaAuk-unsplash.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* Grid Layout */
