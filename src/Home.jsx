@@ -11,11 +11,11 @@ import {
   MdOutlineArrowOutward,
 } from "react-icons/md";
 import { FiMenu, FiX } from "react-icons/fi";
-import img1 from "./assests/neom-STV2s3FYw7Y-unsplash.jpg";
-import img2 from "./assests/adam-kool-ndN00KmbJ1c-unsplash.jpg";
-import img3 from "./assests/robert-lukeman-_RBcxo9AU-U-unsplash.jpg";
-import img4 from "./assests/dawid-zawila--G3rw6Y02D0-unsplash.jpg";
-import img5 from "./assests/nathan-anderson-L95xDkSSuWw-unsplash.jpg";
+import img1 from "./assests/1.webp";
+import img2 from "./assests/2.webp";
+import img3 from "./assests/3.webp";
+import img4 from "./assests/4.webp";
+import img5 from "./assests/5.webp";
 import { CiBrightnessUp, CiLocationOn, CiTimer } from "react-icons/ci";
 import { SiLevelsdotfyi } from "react-icons/si";
 
@@ -188,59 +188,75 @@ const Home = () => {
       </div>
     </section>
         <section className="destinations-grid text-black">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-end px-5 md:px-10 gap-5">
-            <div>
-              <p>[Destinations]</p>
-              <h1 className="h1 text-2xl md:text-3xl">
-                a Uniqr Bland of adventure <br /> Culture and natural Wonders
-              </h1>
-            </div>
-            <div>
-              <p>
-                Discover a fusion of adventure culture and scenic <br /> beuty
-                across our divers destination offering <br /> unforgettable
-                experience at every turn,
-              </p>
-            </div>
-          </div>
-          <div className="pt-10 md:pt-14 px-5 md:px-10 relative ">
-            <img
-              src={img1}
-              alt=""
-              className="rounded-lg h-[40vh] md:h-[65vh] w-full object-cover "
-            />
-            <div className="absolute bottom-5 md:bottom-10 left-5 md:left-16 text-white">
-              <h1 className="h1 text-xl md:text-3xl">Askja Cladera</h1>
-              <p className="text-sm md:text-base">
-                A glimpse into icelands Raw natural beuty and geolical wonders. From its dramatic creter lakes <br /> to its desolate volcanic
-                ladscapes this destinatio promises an unforgetaaple adveunture{" "}
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-col md:flex-row py-5 gap-5 px-5 md:px-10">
-            <div className="relative">
-              <img src={img2} alt="" className="rounded-lg w-full md:w-[600px]" />
-              <div className="absolute bottom-5 md:bottom-10 left-5 text-white">
-                <h1 className="h1 text-xl md:text-3xl">Mossy Mountain Hillside</h1>
-                <p className="text-sm md:text-base">
-                  A sense of peace and serenity with nature and experience the
-                  beuty of <br /> icelands wild landscape{" "}
-                </p>
-              </div>
-            </div>
-            <div className="relative">
-              <img src={img3} alt="" className="rounded-lg w-full md:w-[600px]" />
-              <div className="absolute bottom-5 md:bottom-10 left-5 text-white">
-                <h1 className="h1 text-xl md:text-3xl">Reynisfjar Black Sand Beach</h1>
-                <p className="text-sm md:text-base">
-                  A Volcanic shoure towering cliffs and dramatic seascapes this
-                  iconic beach <br /> is a must- vist desitanation for anture
-                  lovers and adventures alike
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+  <div className="flex flex-col md:flex-row justify-between items-start md:items-end px-5 md:px-10 gap-5">
+    <div>
+      <p>[Destinations]</p>
+      <h1 className="h1 text-2xl md:text-3xl">
+        a Uniqr Bland of adventure <br /> Culture and natural Wonders
+      </h1>
+    </div>
+    <div>
+      <p>
+        Discover a fusion of adventure culture and scenic <br /> beuty
+        across our divers destination offering <br /> unforgettable
+        experience at every turn,
+      </p>
+    </div>
+  </div>
+
+  <div className="pt-10 md:pt-14 px-5 md:px-10 relative">
+    <img
+      src={img1}
+      alt="Askja Cladera"
+      
+      className="rounded-lg h-[40vh] md:h-[65vh] w-full object-cover"
+    />
+    <div className="absolute bottom-5 md:bottom-10 left-5 md:left-16 text-white">
+      <h1 className="h1 text-xl md:text-3xl">Askja Cladera</h1>
+      <p className="text-sm md:text-base">
+        A glimpse into icelands Raw natural beuty and geolical wonders.
+        From its dramatic creter lakes <br /> to its desolate volcanic
+        ladscapes this destinatio promises an unforgetaaple adveunture
+      </p>
+    </div>
+  </div>
+
+  <div className="flex flex-col md:flex-row py-5 gap-5 px-5 md:px-10">
+    <div className="relative">
+      <img
+        src={img2}
+        alt="Mossy Mountain Hillside"
+       
+        className="rounded-lg w-full md:w-[600px]"
+      />
+      <div className="absolute bottom-5 md:bottom-10 left-5 text-white">
+        <h1 className="h1 text-xl md:text-3xl">Mossy Mountain Hillside</h1>
+        <p className="text-sm md:text-base">
+          A sense of peace and serenity with nature and experience the
+          beuty of <br /> icelands wild landscape
+        </p>
+      </div>
+    </div>
+
+    <div className="relative">
+      <img
+        src={img3}
+        alt="Reynisfjar Black Sand Beach"
+        
+        className="rounded-lg w-full md:w-[600px]"
+      />
+      <div className="absolute bottom-5 md:bottom-10 left-5 text-white">
+        <h1 className="h1 text-xl md:text-3xl">Reynisfjar Black Sand Beach</h1>
+        <p className="text-sm md:text-base">
+          A Volcanic shoure towering cliffs and dramatic seascapes this
+          iconic beach <br /> is a must- vist desitanation for anture
+          lovers and adventures alike
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
         <section className="gallery-grid text-black">
           <div className="flex flex-col md:flex-row justify-between px-5 md:px-10 pt-10 md:pt-16 gap-5">
             <div>

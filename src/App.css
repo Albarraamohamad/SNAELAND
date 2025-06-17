@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 .header {
-  background-image: url("/src/assests/jake-weirick-A6gKTF5dVAI-unsplash.jpg");
+  background-image: url("/src/assests/Background.webp");
   background-repeat: no-repeat;
   background-size: cover; /* Ensures the image covers the entire container */
   background-position: center bottom; /* Keeps the focus at the bottom and centers the image */
@@ -35,7 +35,7 @@
   font-family: "Montserrat", sans-serif;
 }
 footer {
-  background-image: url("/src/assests/ken-cheung-KonWFWUaAuk-unsplash.jpg");
+  background-image: url("/src/assests/footer.webp");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
